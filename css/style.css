@@ -1,0 +1,38 @@
+html body {
+   background-color: #ededec;
+}
+
+#back:hover {
+   font-size: 25px;
+}
+
+a, label, p, input, button {
+   font-size: 25px;
+}
+
+button {
+   color: white;
+   padding: 5px 5px;
+   margin: 10px 20px;
+   border-radius: 10px;
+   background-image: linear-gradient(to right, #9e9e9e 0%, #a52a2a 51%, #9e9e9e 100%);
+   background-size: 200% auto;
+   transition: .5s;
+}
+
+button:hover {
+   background-position: right center;
+}
+
+#duplicateField {
+   color: brown;
+}
+
+body > ul > li {
+   list-style-type: disclosure-closed;
+   padding: 5px;
+}
+
+body > ul > li a {
+   color: black;
+}
